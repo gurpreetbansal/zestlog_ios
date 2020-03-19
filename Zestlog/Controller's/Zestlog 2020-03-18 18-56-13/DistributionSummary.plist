@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Zestlog.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>4E1C2B700EA1488E2BA04B36F03DC52ACADE6340</string>
+				<key>dateExpires</key>
+				<string>02/03/21</string>
+				<key>type</key>
+				<string>Apple Development</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>4E1C2B700EA1488E2BA04B36F03DC52ACADE6340</string>
+						<key>dateExpires</key>
+						<string>02/03/21</string>
+						<key>type</key>
+						<string>Apple Development</string>
+					</dict>
+					<key>name</key>
+					<string>FSCalendar.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>X98NZXFU3W</string>
+						<key>name</key>
+						<string>Hypnosis and Meditation for Success, LLC</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>4E1C2B700EA1488E2BA04B36F03DC52ACADE6340</string>
+						<key>dateExpires</key>
+						<string>02/03/21</string>
+						<key>type</key>
+						<string>Apple Development</string>
+					</dict>
+					<key>name</key>
+					<string>IQKeyboardManagerSwift.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>X98NZXFU3W</string>
+						<key>name</key>
+						<string>Hypnosis and Meditation for Success, LLC</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>4E1C2B700EA1488E2BA04B36F03DC52ACADE6340</string>
+						<key>dateExpires</key>
+						<string>02/03/21</string>
+						<key>type</key>
+						<string>Apple Development</string>
+					</dict>
+					<key>name</key>
+					<string>SVPinView.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>X98NZXFU3W</string>
+						<key>name</key>
+						<string>Hypnosis and Meditation for Success, LLC</string>
+					</dict>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>4DRW6ALVET.com.imarkinfotech.sleeplearning</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>X98NZXFU3W</string>
+				<key>get-task-allow</key>
+				<true/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>4DRW6ALVET.com.imarkinfotech.sleeplearning</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>Zestlog.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>26eda869-6294-4c4f-a7c5-78e9d9bfcf33</string>
+				<key>name</key>
+				<string>iOS Team Provisioning Profile: com.imarkinfotech.sleeplearning</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>X98NZXFU3W</string>
+				<key>name</key>
+				<string>Hypnosis and Meditation for Success, LLC</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,1030 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1802B2F523F289AA00EB76DC /* Segoe UI Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1802B2F423F289AA00EB76DC /* Segoe UI Semibold.otf */; };
+		1802B2F723F28A7F00EB76DC /* SEGOEUI.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1802B2F623F28A7F00EB76DC /* SEGOEUI.TTF */; };
+		1802B2FB23F28AB200EB76DC /* elmessiri-bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1802B2FA23F28AB200EB76DC /* elmessiri-bold.otf */; };
+		1802B2FD23F299E100EB76DC /* constantClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1802B2FC23F299E100EB76DC /* constantClass.swift */; };
+		1802B2FF23F29C3800EB76DC /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1802B2FE23F29C3800EB76DC /* IntroViewController.swift */; };
+		1802B30123F2C29900EB76DC /* DesignableClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1802B30023F2C29900EB76DC /* DesignableClass.swift */; };
+		1802B30323F2C61E00EB76DC /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1802B30223F2C61E00EB76DC /* WelcomeViewController.swift */; };
+		1802B30523F2CE4100EB76DC /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1802B30423F2CE4100EB76DC /* SignUpViewController.swift */; };
+		18036C11241A0236004BAB4D /* RestDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18036C10241A0236004BAB4D /* RestDayViewController.swift */; };
+		18112991242353810092AF7F /* ClubComuniteRecievingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18112990242353810092AF7F /* ClubComuniteRecievingViewController.swift */; };
+		18112993242379820092AF7F /* ClubCommunitySendingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18112992242379820092AF7F /* ClubCommunitySendingViewController.swift */; };
+		1811299524237CED0092AF7F /* sendStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1811299424237CED0092AF7F /* sendStatusViewController.swift */; };
+		18339ED22421F3D000FCBA44 /* PTSessionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18339ED12421F3D000FCBA44 /* PTSessionsViewController.swift */; };
+		18339ED42421FE4800FCBA44 /* BookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18339ED32421FE4800FCBA44 /* BookingViewController.swift */; };
+		18339ED62422355600FCBA44 /* TotalCostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18339ED52422355600FCBA44 /* TotalCostViewController.swift */; };
+		18339ED82422470400FCBA44 /* PaymentCompletedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18339ED72422470300FCBA44 /* PaymentCompletedViewController.swift */; };
+		183BEBB7241BAF5F009858B5 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183BEBB6241BAF5E009858B5 /* Singleton.swift */; };
+		1847AA9624039E010041278B /* NutritionRecommenedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847AA9524039E000041278B /* NutritionRecommenedViewController.swift */; };
+		1848E9B823F51B70004406C7 /* SelfCareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1848E9B723F51B6F004406C7 /* SelfCareViewController.swift */; };
+		1848E9BA23F51B83004406C7 /* TrackingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1848E9B923F51B83004406C7 /* TrackingViewController.swift */; };
+		1848E9BC23F51B9C004406C7 /* CommunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1848E9BB23F51B9C004406C7 /* CommunityViewController.swift */; };
+		1848E9BE23F51BAB004406C7 /* CoachingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1848E9BD23F51BAB004406C7 /* CoachingViewController.swift */; };
+		1848E9C023F51BDF004406C7 /* EducationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1848E9BF23F51BDF004406C7 /* EducationViewController.swift */; };
+		18492ED323FF8E9900984215 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18492ED223FF8E9900984215 /* NotificationViewController.swift */; };
+		18492ED523FFC39C00984215 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18492ED423FFC39C00984215 /* PostViewController.swift */; };
+		184F333C23FEB6B600C3DDC8 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184F333B23FEB6B600C3DDC8 /* MessageViewController.swift */; };
+		184F333E23FEBB8F00C3DDC8 /* FollowersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184F333D23FEBB8F00C3DDC8 /* FollowersViewController.swift */; };
+		184FD7BD2420D90E009ADA60 /* TrainingProgramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184FD7BC2420D90E009ADA60 /* TrainingProgramViewController.swift */; };
+		184FD7BF2420E91F009ADA60 /* NutritionDietViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184FD7BE2420E91F009ADA60 /* NutritionDietViewController.swift */; };
+		184FD7C12420ED36009ADA60 /* OnlineCoachingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184FD7C02420ED36009ADA60 /* OnlineCoachingViewController.swift */; };
+		1858BC8824209AF000B88767 /* ServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858BC8724209AF000B88767 /* ServicesViewController.swift */; };
+		1863174C241F6B720036A1B3 /* YourCoachViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1863174B241F6B720036A1B3 /* YourCoachViewController.swift */; };
+		18631912241FA3280036A1B3 /* CoachInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18631911241FA3280036A1B3 /* CoachInformationViewController.swift */; };
+		186C305D241A114B00527D5E /* WorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186C305C241A114B00527D5E /* WorkoutViewController.swift */; };
+		1879874623F2754200562EB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1879874523F2754200562EB0 /* AppDelegate.swift */; };
+		1879874B23F2754200562EB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1879874923F2754200562EB0 /* Main.storyboard */; };
+		1879874E23F2754200562EB0 /* Zestlog.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1879874C23F2754200562EB0 /* Zestlog.xcdatamodeld */; };
+		1879875023F2754500562EB0 /* 0.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1879874F23F2754500562EB0 /* 0.xcassets */; };
+		1879875323F2754500562EB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1879875123F2754500562EB0 /* LaunchScreen.storyboard */; };
+		1879875E23F2754600562EB0 /* ZestlogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1879875D23F2754600562EB0 /* ZestlogTests.swift */; };
+		1879876923F2754600562EB0 /* ZestlogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1879876823F2754600562EB0 /* ZestlogUITests.swift */; };
+		188B54D824011127000508EC /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188B54D724011126000508EC /* ChatVC.swift */; };
+		1895F9E423F570CE0074D129 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1895F9E323F570CE0074D129 /* TabBarController.swift */; };
+		18AA003724190F6600AB017C /* MondayOpenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AA003624190F6600AB017C /* MondayOpenViewController.swift */; };
+		18B6746223FA78950014403F /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B6746123FA78950014403F /* EditProfileViewController.swift */; };
+		18B6746423FA85210014403F /* Medical & LifestyleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B6746323FA85210014403F /* Medical & LifestyleViewController.swift */; };
+		18B6746623FAA60A0014403F /* addCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B6746523FAA60A0014403F /* addCardViewController.swift */; };
+		18B6746823FAB64E0014403F /* PrivacySecurityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B6746723FAB64E0014403F /* PrivacySecurityViewController.swift */; };
+		18B6746A23FAC9E20014403F /* SettingCoachViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B6746923FAC9E20014403F /* SettingCoachViewController.swift */; };
+		18C4176223F40DE200B2E4E5 /* NumberVerifiedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C4176123F40DE200B2E4E5 /* NumberVerifiedViewController.swift */; };
+		18C4176423F41EB900B2E4E5 /* OTPNumberEnetrViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C4176323F41EB800B2E4E5 /* OTPNumberEnetrViewController.swift */; };
+		18C4176623F42B3A00B2E4E5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C4176523F42B3900B2E4E5 /* LoginViewController.swift */; };
+		18EB3FD22405096600881B47 /* createNewMealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EB3FD12405096600881B47 /* createNewMealViewController.swift */; };
+		18EB3FD424063C8E00881B47 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EB3FD324063C8E00881B47 /* SettingViewController.swift */; };
+		18EB3FD62406403A00881B47 /* DefaultSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EB3FD52406403A00881B47 /* DefaultSettingViewController.swift */; };
+		18EB3FD82406838100881B47 /* CoachingSchuduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EB3FD72406838100881B47 /* CoachingSchuduleViewController.swift */; };
+		18EB3FDA2406950500881B47 /* ChangeCalenderDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EB3FD92406950500881B47 /* ChangeCalenderDateViewController.swift */; };
+		18EB3FDC2406A15000881B47 /* GraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EB3FDB2406A15000881B47 /* GraphViewController.swift */; };
+		18EF006F2407A60000C34540 /* CoachingNutritionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EF006E2407A60000C34540 /* CoachingNutritionViewController.swift */; };
+		18F67E9C23F66FD300BA40F7 /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F67E9B23F66FD300BA40F7 /* MyProfileViewController.swift */; };
+		18F67E9E23F67D3D00BA40F7 /* ServiceProviderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F67E9D23F67D3D00BA40F7 /* ServiceProviderViewController.swift */; };
+		18F67EA023F68C4B00BA40F7 /* PaymentBillingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F67E9F23F68C4B00BA40F7 /* PaymentBillingViewController.swift */; };
+		18F67EA223F6B77400BA40F7 /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F67EA123F6B77400BA40F7 /* ContactUsViewController.swift */; };
+		18F67EA423F6BB1600BA40F7 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F67EA323F6BB1500BA40F7 /* Extension.swift */; };
+		62B81288FA93D130D462C9E8 /* Pods_Zestlog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E240CB89F652FFC1B62AD20 /* Pods_Zestlog.framework */; };
+		7F24173F9B1795CEA8051010 /* Pods_Zestlog_ZestlogUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 104763C76B2BA25A88EF5BB4 /* Pods_Zestlog_ZestlogUITests.framework */; };
+		A064919CEEDE1F6ACEE6636E /* Pods_ZestlogTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE1F2D848835482720D23B7D /* Pods_ZestlogTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1879875A23F2754600562EB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1879873A23F2754200562EB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1879874123F2754200562EB0;
+			remoteInfo = Zestlog;
+		};
+		1879876523F2754600562EB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1879873A23F2754200562EB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1879874123F2754200562EB0;
+			remoteInfo = Zestlog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		104763C76B2BA25A88EF5BB4 /* Pods_Zestlog_ZestlogUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zestlog_ZestlogUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1802B2F423F289AA00EB76DC /* Segoe UI Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Segoe UI Semibold.otf"; sourceTree = "<group>"; };
+		1802B2F623F28A7F00EB76DC /* SEGOEUI.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SEGOEUI.TTF; sourceTree = "<group>"; };
+		1802B2FA23F28AB200EB76DC /* elmessiri-bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "elmessiri-bold.otf"; sourceTree = "<group>"; };
+		1802B2FC23F299E100EB76DC /* constantClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constantClass.swift; sourceTree = "<group>"; };
+		1802B2FE23F29C3800EB76DC /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		1802B30023F2C29900EB76DC /* DesignableClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableClass.swift; sourceTree = "<group>"; };
+		1802B30223F2C61E00EB76DC /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		1802B30423F2CE4100EB76DC /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		18036C10241A0236004BAB4D /* RestDayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestDayViewController.swift; sourceTree = "<group>"; };
+		18112990242353810092AF7F /* ClubComuniteRecievingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubComuniteRecievingViewController.swift; sourceTree = "<group>"; };
+		18112992242379820092AF7F /* ClubCommunitySendingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubCommunitySendingViewController.swift; sourceTree = "<group>"; };
+		1811299424237CED0092AF7F /* sendStatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sendStatusViewController.swift; sourceTree = "<group>"; };
+		18339ED12421F3D000FCBA44 /* PTSessionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTSessionsViewController.swift; sourceTree = "<group>"; };
+		18339ED32421FE4800FCBA44 /* BookingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingViewController.swift; sourceTree = "<group>"; };
+		18339ED52422355600FCBA44 /* TotalCostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalCostViewController.swift; sourceTree = "<group>"; };
+		18339ED72422470300FCBA44 /* PaymentCompletedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentCompletedViewController.swift; sourceTree = "<group>"; };
+		183BEBB6241BAF5E009858B5 /* Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		1847AA9524039E000041278B /* NutritionRecommenedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionRecommenedViewController.swift; sourceTree = "<group>"; };
+		1848E9B723F51B6F004406C7 /* SelfCareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfCareViewController.swift; sourceTree = "<group>"; };
+		1848E9B923F51B83004406C7 /* TrackingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingViewController.swift; sourceTree = "<group>"; };
+		1848E9BB23F51B9C004406C7 /* CommunityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityViewController.swift; sourceTree = "<group>"; };
+		1848E9BD23F51BAB004406C7 /* CoachingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoachingViewController.swift; sourceTree = "<group>"; };
+		1848E9BF23F51BDF004406C7 /* EducationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationViewController.swift; sourceTree = "<group>"; };
+		18492ED223FF8E9900984215 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		18492ED423FFC39C00984215 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		184F333B23FEB6B600C3DDC8 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		184F333D23FEBB8F00C3DDC8 /* FollowersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowersViewController.swift; sourceTree = "<group>"; };
+		184FD7BC2420D90E009ADA60 /* TrainingProgramViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingProgramViewController.swift; sourceTree = "<group>"; };
+		184FD7BE2420E91F009ADA60 /* NutritionDietViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionDietViewController.swift; sourceTree = "<group>"; };
+		184FD7C02420ED36009ADA60 /* OnlineCoachingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineCoachingViewController.swift; sourceTree = "<group>"; };
+		1858BC8724209AF000B88767 /* ServicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesViewController.swift; sourceTree = "<group>"; };
+		1863174B241F6B720036A1B3 /* YourCoachViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourCoachViewController.swift; sourceTree = "<group>"; };
+		18631911241FA3280036A1B3 /* CoachInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoachInformationViewController.swift; sourceTree = "<group>"; };
+		186C305C241A114B00527D5E /* WorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutViewController.swift; sourceTree = "<group>"; };
+		1879874223F2754200562EB0 /* Zestlog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zestlog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1879874523F2754200562EB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1879874A23F2754200562EB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1879874D23F2754200562EB0 /* Zestlog.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Zestlog.xcdatamodel; sourceTree = "<group>"; };
+		1879874F23F2754500562EB0 /* 0.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = 0.xcassets; sourceTree = "<group>"; };
+		1879875223F2754500562EB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1879875423F2754500562EB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1879875923F2754600562EB0 /* ZestlogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZestlogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1879875D23F2754600562EB0 /* ZestlogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZestlogTests.swift; sourceTree = "<group>"; };
+		1879875F23F2754600562EB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1879876423F2754600562EB0 /* ZestlogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZestlogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1879876823F2754600562EB0 /* ZestlogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZestlogUITests.swift; sourceTree = "<group>"; };
+		1879876A23F2754600562EB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		188B54D724011126000508EC /* ChatVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		1895F9E323F570CE0074D129 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		18AA003624190F6600AB017C /* MondayOpenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MondayOpenViewController.swift; sourceTree = "<group>"; };
+		18B6746123FA78950014403F /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		18B6746323FA85210014403F /* Medical & LifestyleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Medical & LifestyleViewController.swift"; sourceTree = "<group>"; };
+		18B6746523FAA60A0014403F /* addCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addCardViewController.swift; sourceTree = "<group>"; };
+		18B6746723FAB64E0014403F /* PrivacySecurityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacySecurityViewController.swift; sourceTree = "<group>"; };
+		18B6746923FAC9E20014403F /* SettingCoachViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCoachViewController.swift; sourceTree = "<group>"; };
+		18C4176123F40DE200B2E4E5 /* NumberVerifiedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberVerifiedViewController.swift; sourceTree = "<group>"; };
+		18C4176323F41EB800B2E4E5 /* OTPNumberEnetrViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPNumberEnetrViewController.swift; sourceTree = "<group>"; };
+		18C4176523F42B3900B2E4E5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		18EB3FD12405096600881B47 /* createNewMealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = createNewMealViewController.swift; sourceTree = "<group>"; };
+		18EB3FD324063C8E00881B47 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		18EB3FD52406403A00881B47 /* DefaultSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultSettingViewController.swift; sourceTree = "<group>"; };
+		18EB3FD72406838100881B47 /* CoachingSchuduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoachingSchuduleViewController.swift; sourceTree = "<group>"; };
+		18EB3FD92406950500881B47 /* ChangeCalenderDateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeCalenderDateViewController.swift; sourceTree = "<group>"; };
+		18EB3FDB2406A15000881B47 /* GraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphViewController.swift; sourceTree = "<group>"; };
+		18EF006E2407A60000C34540 /* CoachingNutritionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoachingNutritionViewController.swift; sourceTree = "<group>"; };
+		18F67E9B23F66FD300BA40F7 /* MyProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = "<group>"; };
+		18F67E9D23F67D3D00BA40F7 /* ServiceProviderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceProviderViewController.swift; sourceTree = "<group>"; };
+		18F67E9F23F68C4B00BA40F7 /* PaymentBillingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentBillingViewController.swift; sourceTree = "<group>"; };
+		18F67EA123F6B77400BA40F7 /* ContactUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
+		18F67EA323F6BB1500BA40F7 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		267C00D1A6708C6EE5B9F50D /* Pods-Zestlog-ZestlogUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zestlog-ZestlogUITests.release.xcconfig"; path = "Target Support Files/Pods-Zestlog-ZestlogUITests/Pods-Zestlog-ZestlogUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3163139C5F822C9B31502EED /* Pods-Zestlog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zestlog.debug.xcconfig"; path = "Target Support Files/Pods-Zestlog/Pods-Zestlog.debug.xcconfig"; sourceTree = "<group>"; };
+		3E240CB89F652FFC1B62AD20 /* Pods_Zestlog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zestlog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61ADF4746CBABC00A9AD0A10 /* Pods-ZestlogTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZestlogTests.release.xcconfig"; path = "Target Support Files/Pods-ZestlogTests/Pods-ZestlogTests.release.xcconfig"; sourceTree = "<group>"; };
+		85762C6F29AFF0F6C1C6B63C /* Pods-Zestlog-ZestlogUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zestlog-ZestlogUITests.debug.xcconfig"; path = "Target Support Files/Pods-Zestlog-ZestlogUITests/Pods-Zestlog-ZestlogUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8E2D3FE8E4C7166E6988606F /* Pods-ZestlogTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZestlogTests.debug.xcconfig"; path = "Target Support Files/Pods-ZestlogTests/Pods-ZestlogTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C782AADCAB4D99BE488EC952 /* Pods-Zestlog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zestlog.release.xcconfig"; path = "Target Support Files/Pods-Zestlog/Pods-Zestlog.release.xcconfig"; sourceTree = "<group>"; };
+		FE1F2D848835482720D23B7D /* Pods_ZestlogTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZestlogTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1879873F23F2754200562EB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62B81288FA93D130D462C9E8 /* Pods_Zestlog.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1879875623F2754600562EB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A064919CEEDE1F6ACEE6636E /* Pods_ZestlogTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1879876123F2754600562EB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F24173F9B1795CEA8051010 /* Pods_Zestlog_ZestlogUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02CD7259EE1AFCE81E09869D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3163139C5F822C9B31502EED /* Pods-Zestlog.debug.xcconfig */,
+				C782AADCAB4D99BE488EC952 /* Pods-Zestlog.release.xcconfig */,
+				85762C6F29AFF0F6C1C6B63C /* Pods-Zestlog-ZestlogUITests.debug.xcconfig */,
+				267C00D1A6708C6EE5B9F50D /* Pods-Zestlog-ZestlogUITests.release.xcconfig */,
+				8E2D3FE8E4C7166E6988606F /* Pods-ZestlogTests.debug.xcconfig */,
+				61ADF4746CBABC00A9AD0A10 /* Pods-ZestlogTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		1802B2F323F2898300EB76DC /* fontFamily */ = {
+			isa = PBXGroup;
+			children = (
+				1802B2FA23F28AB200EB76DC /* elmessiri-bold.otf */,
+				1802B2F423F289AA00EB76DC /* Segoe UI Semibold.otf */,
+				1802B2F623F28A7F00EB76DC /* SEGOEUI.TTF */,
+			);
+			path = fontFamily;
+			sourceTree = "<group>";
+		};
+		1879873923F2754200562EB0 = {
+			isa = PBXGroup;
+			children = (
+				1879874423F2754200562EB0 /* Zestlog */,
+				1879875C23F2754600562EB0 /* ZestlogTests */,
+				1879876723F2754600562EB0 /* ZestlogUITests */,
+				1879874323F2754200562EB0 /* Products */,
+				02CD7259EE1AFCE81E09869D /* Pods */,
+				FDDE726FCE211CB5EB8FA6A9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1879874323F2754200562EB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1879874223F2754200562EB0 /* Zestlog.app */,
+				1879875923F2754600562EB0 /* ZestlogTests.xctest */,
+				1879876423F2754600562EB0 /* ZestlogUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1879874423F2754200562EB0 /* Zestlog */ = {
+			isa = PBXGroup;
+			children = (
+				1802B2F323F2898300EB76DC /* fontFamily */,
+				1879877923F279BA00562EB0 /* Commonclasses */,
+				1879877823F2771C00562EB0 /* Controller's */,
+				1879877723F2770400562EB0 /* Model's */,
+				1879877623F276EB00562EB0 /* view's */,
+				1879874F23F2754500562EB0 /* 0.xcassets */,
+				1879875423F2754500562EB0 /* Info.plist */,
+				1879874C23F2754200562EB0 /* Zestlog.xcdatamodeld */,
+			);
+			path = Zestlog;
+			sourceTree = "<group>";
+		};
+		1879875C23F2754600562EB0 /* ZestlogTests */ = {
+			isa = PBXGroup;
+			children = (
+				1879875D23F2754600562EB0 /* ZestlogTests.swift */,
+				1879875F23F2754600562EB0 /* Info.plist */,
+			);
+			path = ZestlogTests;
+			sourceTree = "<group>";
+		};
+		1879876723F2754600562EB0 /* ZestlogUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1879876823F2754600562EB0 /* ZestlogUITests.swift */,
+				1879876A23F2754600562EB0 /* Info.plist */,
+			);
+			path = ZestlogUITests;
+			sourceTree = "<group>";
+		};
+		1879877623F276EB00562EB0 /* view's */ = {
+			isa = PBXGroup;
+			children = (
+				1879874923F2754200562EB0 /* Main.storyboard */,
+				1879875123F2754500562EB0 /* LaunchScreen.storyboard */,
+			);
+			path = "view's";
+			sourceTree = "<group>";
+		};
+		1879877723F2770400562EB0 /* Model's */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Model's";
+			sourceTree = "<group>";
+		};
+		1879877823F2771C00562EB0 /* Controller's */ = {
+			isa = PBXGroup;
+			children = (
+				1879874523F2754200562EB0 /* AppDelegate.swift */,
+				1802B2FE23F29C3800EB76DC /* IntroViewController.swift */,
+				1802B30223F2C61E00EB76DC /* WelcomeViewController.swift */,
+				1802B30423F2CE4100EB76DC /* SignUpViewController.swift */,
+				18C4176123F40DE200B2E4E5 /* NumberVerifiedViewController.swift */,
+				18C4176323F41EB800B2E4E5 /* OTPNumberEnetrViewController.swift */,
+				18C4176523F42B3900B2E4E5 /* LoginViewController.swift */,
+				1895F9E323F570CE0074D129 /* TabBarController.swift */,
+				1848E9B723F51B6F004406C7 /* SelfCareViewController.swift */,
+				1848E9B923F51B83004406C7 /* TrackingViewController.swift */,
+				1848E9BB23F51B9C004406C7 /* CommunityViewController.swift */,
+				1848E9BD23F51BAB004406C7 /* CoachingViewController.swift */,
+				1848E9BF23F51BDF004406C7 /* EducationViewController.swift */,
+				18F67E9B23F66FD300BA40F7 /* MyProfileViewController.swift */,
+				18F67E9D23F67D3D00BA40F7 /* ServiceProviderViewController.swift */,
+				18F67E9F23F68C4B00BA40F7 /* PaymentBillingViewController.swift */,
+				18F67EA123F6B77400BA40F7 /* ContactUsViewController.swift */,
+				18B6746123FA78950014403F /* EditProfileViewController.swift */,
+				18B6746323FA85210014403F /* Medical & LifestyleViewController.swift */,
+				18B6746523FAA60A0014403F /* addCardViewController.swift */,
+				18B6746723FAB64E0014403F /* PrivacySecurityViewController.swift */,
+				18B6746923FAC9E20014403F /* SettingCoachViewController.swift */,
+				184F333B23FEB6B600C3DDC8 /* MessageViewController.swift */,
+				184F333D23FEBB8F00C3DDC8 /* FollowersViewController.swift */,
+				18492ED223FF8E9900984215 /* NotificationViewController.swift */,
+				18492ED423FFC39C00984215 /* PostViewController.swift */,
+				188B54D724011126000508EC /* ChatVC.swift */,
+				1847AA9524039E000041278B /* NutritionRecommenedViewController.swift */,
+				18EB3FD12405096600881B47 /* createNewMealViewController.swift */,
+				18EB3FD324063C8E00881B47 /* SettingViewController.swift */,
+				18EB3FD52406403A00881B47 /* DefaultSettingViewController.swift */,
+				18EB3FD72406838100881B47 /* CoachingSchuduleViewController.swift */,
+				18EB3FD92406950500881B47 /* ChangeCalenderDateViewController.swift */,
+				18EB3FDB2406A15000881B47 /* GraphViewController.swift */,
+				18EF006E2407A60000C34540 /* CoachingNutritionViewController.swift */,
+				18AA003624190F6600AB017C /* MondayOpenViewController.swift */,
+				18036C10241A0236004BAB4D /* RestDayViewController.swift */,
+				186C305C241A114B00527D5E /* WorkoutViewController.swift */,
+				1863174B241F6B720036A1B3 /* YourCoachViewController.swift */,
+				18631911241FA3280036A1B3 /* CoachInformationViewController.swift */,
+				1858BC8724209AF000B88767 /* ServicesViewController.swift */,
+				184FD7BC2420D90E009ADA60 /* TrainingProgramViewController.swift */,
+				184FD7BE2420E91F009ADA60 /* NutritionDietViewController.swift */,
+				184FD7C02420ED36009ADA60 /* OnlineCoachingViewController.swift */,
+				18339ED12421F3D000FCBA44 /* PTSessionsViewController.swift */,
+				18339ED32421FE4800FCBA44 /* BookingViewController.swift */,
+				18339ED52422355600FCBA44 /* TotalCostViewController.swift */,
+				18339ED72422470300FCBA44 /* PaymentCompletedViewController.swift */,
+				18112990242353810092AF7F /* ClubComuniteRecievingViewController.swift */,
+				18112992242379820092AF7F /* ClubCommunitySendingViewController.swift */,
+				1811299424237CED0092AF7F /* sendStatusViewController.swift */,
+			);
+			path = "Controller's";
+			sourceTree = "<group>";
+		};
+		1879877923F279BA00562EB0 /* Commonclasses */ = {
+			isa = PBXGroup;
+			children = (
+				1802B2FC23F299E100EB76DC /* constantClass.swift */,
+				1802B30023F2C29900EB76DC /* DesignableClass.swift */,
+				183BEBB6241BAF5E009858B5 /* Singleton.swift */,
+				18F67EA323F6BB1500BA40F7 /* Extension.swift */,
+			);
+			path = Commonclasses;
+			sourceTree = "<group>";
+		};
+		FDDE726FCE211CB5EB8FA6A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E240CB89F652FFC1B62AD20 /* Pods_Zestlog.framework */,
+				104763C76B2BA25A88EF5BB4 /* Pods_Zestlog_ZestlogUITests.framework */,
+				FE1F2D848835482720D23B7D /* Pods_ZestlogTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1879874123F2754200562EB0 /* Zestlog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1879876D23F2754600562EB0 /* Build configuration list for PBXNativeTarget "Zestlog" */;
+			buildPhases = (
+				D6D3A07C8AD406C60AD1A0DE /* [CP] Check Pods Manifest.lock */,
+				1879873E23F2754200562EB0 /* Sources */,
+				1879873F23F2754200562EB0 /* Frameworks */,
+				1879874023F2754200562EB0 /* Resources */,
+				7EB1383B172B4A86466F4CA7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zestlog;
+			productName = Zestlog;
+			productReference = 1879874223F2754200562EB0 /* Zestlog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1879875823F2754600562EB0 /* ZestlogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1879877023F2754600562EB0 /* Build configuration list for PBXNativeTarget "ZestlogTests" */;
+			buildPhases = (
+				ECC061E954278A316CC5CFFC /* [CP] Check Pods Manifest.lock */,
+				1879875523F2754600562EB0 /* Sources */,
+				1879875623F2754600562EB0 /* Frameworks */,
+				1879875723F2754600562EB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1879875B23F2754600562EB0 /* PBXTargetDependency */,
+			);
+			name = ZestlogTests;
+			productName = ZestlogTests;
+			productReference = 1879875923F2754600562EB0 /* ZestlogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1879876323F2754600562EB0 /* ZestlogUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1879877323F2754600562EB0 /* Build configuration list for PBXNativeTarget "ZestlogUITests" */;
+			buildPhases = (
+				2D5D78C5BA44457FD0814965 /* [CP] Check Pods Manifest.lock */,
+				1879876023F2754600562EB0 /* Sources */,
+				1879876123F2754600562EB0 /* Frameworks */,
+				1879876223F2754600562EB0 /* Resources */,
+				BE06441540B8410034330A0A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1879876623F2754600562EB0 /* PBXTargetDependency */,
+			);
+			name = ZestlogUITests;
+			productName = ZestlogUITests;
+			productReference = 1879876423F2754600562EB0 /* ZestlogUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1879873A23F2754200562EB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					1879874123F2754200562EB0 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					1879875823F2754600562EB0 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 1879874123F2754200562EB0;
+					};
+					1879876323F2754600562EB0 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 1879874123F2754200562EB0;
+					};
+				};
+			};
+			buildConfigurationList = 1879873D23F2754200562EB0 /* Build configuration list for PBXProject "Zestlog" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1879873923F2754200562EB0;
+			productRefGroup = 1879874323F2754200562EB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1879874123F2754200562EB0 /* Zestlog */,
+				1879875823F2754600562EB0 /* ZestlogTests */,
+				1879876323F2754600562EB0 /* ZestlogUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1879874023F2754200562EB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1802B2FB23F28AB200EB76DC /* elmessiri-bold.otf in Resources */,
+				1802B2F523F289AA00EB76DC /* Segoe UI Semibold.otf in Resources */,
+				1879875323F2754500562EB0 /* LaunchScreen.storyboard in Resources */,
+				1879875023F2754500562EB0 /* 0.xcassets in Resources */,
+				1802B2F723F28A7F00EB76DC /* SEGOEUI.TTF in Resources */,
+				1879874B23F2754200562EB0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1879875723F2754600562EB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1879876223F2754600562EB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D5D78C5BA44457FD0814965 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Zestlog-ZestlogUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EB1383B172B4A86466F4CA7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zestlog/Pods-Zestlog-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zestlog/Pods-Zestlog-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Zestlog/Pods-Zestlog-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE06441540B8410034330A0A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zestlog-ZestlogUITests/Pods-Zestlog-ZestlogUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zestlog-ZestlogUITests/Pods-Zestlog-ZestlogUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Zestlog-ZestlogUITests/Pods-Zestlog-ZestlogUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6D3A07C8AD406C60AD1A0DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Zestlog-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECC061E954278A316CC5CFFC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZestlogTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1879873E23F2754200562EB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B6746223FA78950014403F /* EditProfileViewController.swift in Sources */,
+				184F333C23FEB6B600C3DDC8 /* MessageViewController.swift in Sources */,
+				18B6746823FAB64E0014403F /* PrivacySecurityViewController.swift in Sources */,
+				18112993242379820092AF7F /* ClubCommunitySendingViewController.swift in Sources */,
+				18339ED82422470400FCBA44 /* PaymentCompletedViewController.swift in Sources */,
+				18EF006F2407A60000C34540 /* CoachingNutritionViewController.swift in Sources */,
+				184FD7C12420ED36009ADA60 /* OnlineCoachingViewController.swift in Sources */,
+				1879874E23F2754200562EB0 /* Zestlog.xcdatamodeld in Sources */,
+				1895F9E423F570CE0074D129 /* TabBarController.swift in Sources */,
+				18EB3FD424063C8E00881B47 /* SettingViewController.swift in Sources */,
+				18112991242353810092AF7F /* ClubComuniteRecievingViewController.swift in Sources */,
+				1802B30523F2CE4100EB76DC /* SignUpViewController.swift in Sources */,
+				1848E9BA23F51B83004406C7 /* TrackingViewController.swift in Sources */,
+				183BEBB7241BAF5F009858B5 /* Singleton.swift in Sources */,
+				1848E9C023F51BDF004406C7 /* EducationViewController.swift in Sources */,
+				1848E9B823F51B70004406C7 /* SelfCareViewController.swift in Sources */,
+				1802B30123F2C29900EB76DC /* DesignableClass.swift in Sources */,
+				18036C11241A0236004BAB4D /* RestDayViewController.swift in Sources */,
+				18F67EA223F6B77400BA40F7 /* ContactUsViewController.swift in Sources */,
+				18B6746A23FAC9E20014403F /* SettingCoachViewController.swift in Sources */,
+				1847AA9624039E010041278B /* NutritionRecommenedViewController.swift in Sources */,
+				1848E9BC23F51B9C004406C7 /* CommunityViewController.swift in Sources */,
+				18EB3FD82406838100881B47 /* CoachingSchuduleViewController.swift in Sources */,
+				18F67EA423F6BB1600BA40F7 /* Extension.swift in Sources */,
+				18AA003724190F6600AB017C /* MondayOpenViewController.swift in Sources */,
+				1802B2FD23F299E100EB76DC /* constantClass.swift in Sources */,
+				18EB3FDA2406950500881B47 /* ChangeCalenderDateViewController.swift in Sources */,
+				1848E9BE23F51BAB004406C7 /* CoachingViewController.swift in Sources */,
+				1863174C241F6B720036A1B3 /* YourCoachViewController.swift in Sources */,
+				184F333E23FEBB8F00C3DDC8 /* FollowersViewController.swift in Sources */,
+				184FD7BD2420D90E009ADA60 /* TrainingProgramViewController.swift in Sources */,
+				18339ED62422355600FCBA44 /* TotalCostViewController.swift in Sources */,
+				18339ED42421FE4800FCBA44 /* BookingViewController.swift in Sources */,
+				18631912241FA3280036A1B3 /* CoachInformationViewController.swift in Sources */,
+				18EB3FD22405096600881B47 /* createNewMealViewController.swift in Sources */,
+				1802B30323F2C61E00EB76DC /* WelcomeViewController.swift in Sources */,
+				1879874623F2754200562EB0 /* AppDelegate.swift in Sources */,
+				188B54D824011127000508EC /* ChatVC.swift in Sources */,
+				1811299524237CED0092AF7F /* sendStatusViewController.swift in Sources */,
+				18EB3FD62406403A00881B47 /* DefaultSettingViewController.swift in Sources */,
+				1802B2FF23F29C3800EB76DC /* IntroViewController.swift in Sources */,
+				18339ED22421F3D000FCBA44 /* PTSessionsViewController.swift in Sources */,
+				186C305D241A114B00527D5E /* WorkoutViewController.swift in Sources */,
+				1858BC8824209AF000B88767 /* ServicesViewController.swift in Sources */,
+				18B6746623FAA60A0014403F /* addCardViewController.swift in Sources */,
+				18F67E9E23F67D3D00BA40F7 /* ServiceProviderViewController.swift in Sources */,
+				18EB3FDC2406A15000881B47 /* GraphViewController.swift in Sources */,
+				184FD7BF2420E91F009ADA60 /* NutritionDietViewController.swift in Sources */,
+				18C4176223F40DE200B2E4E5 /* NumberVerifiedViewController.swift in Sources */,
+				18F67E9C23F66FD300BA40F7 /* MyProfileViewController.swift in Sources */,
+				18492ED523FFC39C00984215 /* PostViewController.swift in Sources */,
+				18C4176623F42B3A00B2E4E5 /* LoginViewController.swift in Sources */,
+				18F67EA023F68C4B00BA40F7 /* PaymentBillingViewController.swift in Sources */,
+				18492ED323FF8E9900984215 /* NotificationViewController.swift in Sources */,
+				18C4176423F41EB900B2E4E5 /* OTPNumberEnetrViewController.swift in Sources */,
+				18B6746423FA85210014403F /* Medical & LifestyleViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1879875523F2754600562EB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1879875E23F2754600562EB0 /* ZestlogTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1879876023F2754600562EB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1879876923F2754600562EB0 /* ZestlogUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1879875B23F2754600562EB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1879874123F2754200562EB0 /* Zestlog */;
+			targetProxy = 1879875A23F2754600562EB0 /* PBXContainerItemProxy */;
+		};
+		1879876623F2754600562EB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1879874123F2754200562EB0 /* Zestlog */;
+			targetProxy = 1879876523F2754600562EB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1879874923F2754200562EB0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1879874A23F2754200562EB0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1879875123F2754500562EB0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1879875223F2754500562EB0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1879876B23F2754600562EB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1879876C23F2754600562EB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1879876E23F2754600562EB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3163139C5F822C9B31502EED /* Pods-Zestlog.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X98NZXFU3W;
+				INFOPLIST_FILE = Zestlog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.imarkinfotech.sleeplearning;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1879876F23F2754600562EB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C782AADCAB4D99BE488EC952 /* Pods-Zestlog.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X98NZXFU3W;
+				INFOPLIST_FILE = Zestlog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.imarkinfotech.sleeplearning;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		1879877123F2754600562EB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E2D3FE8E4C7166E6988606F /* Pods-ZestlogTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 854539W674;
+				INFOPLIST_FILE = ZestlogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.ZestlogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zestlog.app/Zestlog";
+			};
+			name = Debug;
+		};
+		1879877223F2754600562EB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61ADF4746CBABC00A9AD0A10 /* Pods-ZestlogTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 854539W674;
+				INFOPLIST_FILE = ZestlogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.ZestlogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zestlog.app/Zestlog";
+			};
+			name = Release;
+		};
+		1879877423F2754600562EB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85762C6F29AFF0F6C1C6B63C /* Pods-Zestlog-ZestlogUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 854539W674;
+				INFOPLIST_FILE = ZestlogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.ZestlogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Zestlog;
+			};
+			name = Debug;
+		};
+		1879877523F2754600562EB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 267C00D1A6708C6EE5B9F50D /* Pods-Zestlog-ZestlogUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 854539W674;
+				INFOPLIST_FILE = ZestlogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.ZestlogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Zestlog;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1879873D23F2754200562EB0 /* Build configuration list for PBXProject "Zestlog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1879876B23F2754600562EB0 /* Debug */,
+				1879876C23F2754600562EB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1879876D23F2754600562EB0 /* Build configuration list for PBXNativeTarget "Zestlog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1879876E23F2754600562EB0 /* Debug */,
+				1879876F23F2754600562EB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1879877023F2754600562EB0 /* Build configuration list for PBXNativeTarget "ZestlogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1879877123F2754600562EB0 /* Debug */,
+				1879877223F2754600562EB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1879877323F2754600562EB0 /* Build configuration list for PBXNativeTarget "ZestlogUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1879877423F2754600562EB0 /* Debug */,
+				1879877523F2754600562EB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1879874C23F2754200562EB0 /* Zestlog.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1879874D23F2754200562EB0 /* Zestlog.xcdatamodel */,
+			);
+			currentVersion = 1879874D23F2754200562EB0 /* Zestlog.xcdatamodel */;
+			path = Zestlog.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1879873A23F2754200562EB0 /* Project object */;
+}
