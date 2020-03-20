@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -56,6 +56,7 @@
 		18B6746623FAA60A0014403F /* addCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B6746523FAA60A0014403F /* addCardViewController.swift */; };
 		18B6746823FAB64E0014403F /* PrivacySecurityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B6746723FAB64E0014403F /* PrivacySecurityViewController.swift */; };
 		18B6746A23FAC9E20014403F /* SettingCoachViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B6746923FAC9E20014403F /* SettingCoachViewController.swift */; };
+		18BADA562424A52B002B00D7 /* StatusViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BADA552424A52B002B00D7 /* StatusViewViewController.swift */; };
 		18C4176223F40DE200B2E4E5 /* NumberVerifiedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C4176123F40DE200B2E4E5 /* NumberVerifiedViewController.swift */; };
 		18C4176423F41EB900B2E4E5 /* OTPNumberEnetrViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C4176323F41EB800B2E4E5 /* OTPNumberEnetrViewController.swift */; };
 		18C4176623F42B3A00B2E4E5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C4176523F42B3900B2E4E5 /* LoginViewController.swift */; };
@@ -150,6 +151,7 @@
 		18B6746523FAA60A0014403F /* addCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addCardViewController.swift; sourceTree = "<group>"; };
 		18B6746723FAB64E0014403F /* PrivacySecurityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacySecurityViewController.swift; sourceTree = "<group>"; };
 		18B6746923FAC9E20014403F /* SettingCoachViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCoachViewController.swift; sourceTree = "<group>"; };
+		18BADA552424A52B002B00D7 /* StatusViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusViewViewController.swift; sourceTree = "<group>"; };
 		18C4176123F40DE200B2E4E5 /* NumberVerifiedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberVerifiedViewController.swift; sourceTree = "<group>"; };
 		18C4176323F41EB800B2E4E5 /* OTPNumberEnetrViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPNumberEnetrViewController.swift; sourceTree = "<group>"; };
 		18C4176523F42B3900B2E4E5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -351,6 +353,7 @@
 				18112990242353810092AF7F /* ClubComuniteRecievingViewController.swift */,
 				18112992242379820092AF7F /* ClubCommunitySendingViewController.swift */,
 				1811299424237CED0092AF7F /* sendStatusViewController.swift */,
+				18BADA552424A52B002B00D7 /* StatusViewViewController.swift */,
 			);
 			path = "Controller's";
 			sourceTree = "<group>";
@@ -461,7 +464,7 @@
 				};
 			};
 			buildConfigurationList = 1879873D23F2754200562EB0 /* Build configuration list for PBXProject "Zestlog" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 11.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -618,6 +621,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18BADA562424A52B002B00D7 /* StatusViewViewController.swift in Sources */,
 				18B6746223FA78950014403F /* EditProfileViewController.swift in Sources */,
 				184F333C23FEB6B600C3DDC8 /* MessageViewController.swift in Sources */,
 				18B6746823FAB64E0014403F /* PrivacySecurityViewController.swift in Sources */,
