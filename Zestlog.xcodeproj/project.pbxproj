@@ -44,7 +44,7 @@
 		1879874623F2754200562EB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1879874523F2754200562EB0 /* AppDelegate.swift */; };
 		1879874B23F2754200562EB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1879874923F2754200562EB0 /* Main.storyboard */; };
 		1879874E23F2754200562EB0 /* Zestlog.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1879874C23F2754200562EB0 /* Zestlog.xcdatamodeld */; };
-		1879875023F2754500562EB0 /* 0.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1879874F23F2754500562EB0 /* 0.xcassets */; };
+		1879875023F2754500562EB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1879874F23F2754500562EB0 /* Assets.xcassets */; };
 		1879875323F2754500562EB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1879875123F2754500562EB0 /* LaunchScreen.storyboard */; };
 		1879875E23F2754600562EB0 /* ZestlogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1879875D23F2754600562EB0 /* ZestlogTests.swift */; };
 		1879876923F2754600562EB0 /* ZestlogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1879876823F2754600562EB0 /* ZestlogUITests.swift */; };
@@ -134,7 +134,7 @@
 		1879874523F2754200562EB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1879874A23F2754200562EB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1879874D23F2754200562EB0 /* Zestlog.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Zestlog.xcdatamodel; sourceTree = "<group>"; };
-		1879874F23F2754500562EB0 /* 0.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = 0.xcassets; sourceTree = "<group>"; };
+		1879874F23F2754500562EB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1879875223F2754500562EB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1879875423F2754500562EB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1879875923F2754600562EB0 /* ZestlogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZestlogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -258,7 +258,7 @@
 				1879877823F2771C00562EB0 /* Controller's */,
 				1879877723F2770400562EB0 /* Model's */,
 				1879877623F276EB00562EB0 /* view's */,
-				1879874F23F2754500562EB0 /* 0.xcassets */,
+				1879874F23F2754500562EB0 /* Assets.xcassets */,
 				1879875423F2754500562EB0 /* Info.plist */,
 				1879874C23F2754200562EB0 /* Zestlog.xcdatamodeld */,
 			);
@@ -491,7 +491,7 @@
 				1802B2FB23F28AB200EB76DC /* elmessiri-bold.otf in Resources */,
 				1802B2F523F289AA00EB76DC /* Segoe UI Semibold.otf in Resources */,
 				1879875323F2754500562EB0 /* LaunchScreen.storyboard in Resources */,
-				1879875023F2754500562EB0 /* 0.xcassets in Resources */,
+				1879875023F2754500562EB0 /* Assets.xcassets in Resources */,
 				1802B2F723F28A7F00EB76DC /* SEGOEUI.TTF in Resources */,
 				1879874B23F2754200562EB0 /* Main.storyboard in Resources */,
 			);
@@ -853,17 +853,17 @@
 			baseConfigurationReference = 3163139C5F822C9B31502EED /* Pods-Zestlog.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = X98NZXFU3W;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 824686DSKM;
 				INFOPLIST_FILE = Zestlog/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.imarkinfotech.sleeplearning;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.voxial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = VoxialDev;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -874,17 +874,17 @@
 			baseConfigurationReference = C782AADCAB4D99BE488EC952 /* Pods-Zestlog.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = X98NZXFU3W;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 824686DSKM;
 				INFOPLIST_FILE = Zestlog/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.imarkinfotech.sleeplearning;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.voxial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = VoxialDev;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
